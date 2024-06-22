@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" />
+</head>
+
+<body>
+    <!-- Your content goes here -->
+     <div class="container">
+<div class="player-container">
+        <div class="img-container">
+            <img src="img/jacinto-1.jpg" alt="Album Art">
+    
+    </div>
+        <h2 id="title">Electric Chill Machine</h2>
+        <h3 id="artist">Jacinto</h3>
+        <!-- Progress -->
+        <div class="progress-container" id="progress-container">
+            <div class="progress" id="progress"></div>
+            <div class="duration-wrapper">
+                <span id="current-time">0:00</span>
+                <span id="duration">1:06</span>
+            </div>
+        </div>
+
+        <div id="music-icon">
+            <i class="fa-solid fa-backward-step"></i>
+            <i class="fa-solid fa-play"></i>
+            <i class="fa-solid fa-forward-step"></i>
+        </div>
+        <audio  src="music/jacinto-1.mp3" controls hidden></audio>
+    </div>
+    </div>
+        <script src="script.js"></script>
+</body>
+
+</html>
