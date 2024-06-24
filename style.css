@@ -9,9 +9,10 @@
     height: 60vh;
     margin: 9rem;
     border-radius: 10px;
-    box-shadow: 1px 1px 7px 5px rgba(0, 0, 0, 0.7);
+    box-shadow: 1px 1px 7px 1px rgba(0, 0, 0, 0.7);
     padding-top: 2rem;
-    background-color: rgb(217, 222, 222);
+    background-color:  rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(8px);
     display: flex;flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -45,7 +46,8 @@
     
 }
 .fa-solid:hover{
-    color: grey;    
+    color: rgb(70, 70, 235);  
+     
 }
 /* Progress */
 .progress-container {
@@ -60,7 +62,8 @@
   }
   
   .progress {
-    background: #242323;
+    background: rgb(81, 81, 238);
+    backdrop-filter: blur(18px);
     border-radius: 5px;
     height: 100%;
     width: 0%; /*update this width using javascript to see progress*/
